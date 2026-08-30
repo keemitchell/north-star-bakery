@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery | Contact</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/bakery-logo_c.png" alt="North Star Bakery logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact and Pre-Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Contact North Star Bakery</h1>
+
+        <section>
+            <h2>Location and Hours</h2>
+
+            <p>
+                125 North Star Avenue<br>
+                Omaha, NE 68124
+            </p>
+
+            <p>
+                <strong>Monday-Friday:</strong> 6:30 AM-6:00 PM<br>
+                <strong>Saturday:</strong> 7:00 AM-4:00 PM<br>
+                <strong>Sunday:</strong> 8:00 AM-2:00 PM
+            </p>
+        </section>
+
+        <section>
+            <h2>Pre-Order Form</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Order Information</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <br><br>
+
+                    <label for="pickup">Pickup Date:</label>
+                    <input type="date" id="pickup" name="pickup" required>
+
+                    <br><br>
+
+                    <label for="request">Request Type:</label>
+                    <select id="request" name="request" required>
+                        <option value="">Choose an option</option>
+                        <option value="preorder">Pre-Order</option>
+                        <option value="question">General Question</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="details">Item Details:</label><br>
+                    <textarea id="details" name="details" rows="4" cols="40" required></textarea>
+
+                    <br><br>
+
+                    <label for="allergies">Allergy Notes:</label><br>
+                    <textarea id="allergies" name="allergies" rows="4" cols="40"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 North Star Bakery</p>
+        <p>Freshly baked for our community.</p>
+    </footer>
+
+</body>
+
+</html>
