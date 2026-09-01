@@ -26,7 +26,25 @@
     <main>
 
         <h1>Our Products</h1>
+        
+        <section>
+            <h2>Choose Your Favorite Bakery Item</h2>
+            <label for="favorite-item">Favorite Item:</label>
 
+            <select id="favorite-item">
+                <option value="">Choose an item</option>
+                <option value="Sourdough Bread">Sourdough Bread</option>
+                <option value="Croissant">Croissant</option>
+                <option value="Cinnamon Roll">Cinnamon Roll</option>
+                <option value="Cake">Cake</option>
+            </select>
+
+            <button id = "save-favorite">Save Favorite</button>
+
+            <p id="favorite-message"></p>
+            <p id="preorder-link"></p>
+        </section>
+        
         <section>
             <h2>Breads</h2>
 
@@ -71,7 +89,7 @@
                 Prices start at $25 and vary based on size and type.
             </p>
         </section>
-
+        
     </main>
 
     <footer>
@@ -79,6 +97,7 @@
         <p>Freshly baked for our community.</p>
     </footer>
 
-</body>
+<script src="script.js"></script>
 
+</body>
 </html>
